@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+.navbar{
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+
+}
+
+.nav-link{
+    font-size: 25px;
+}
+main{
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 18%;
+}
+.site-wrapper{
+    height: 730px;
+}
+
+.card,.list-group-item{
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+
+
+.section-1{
+    background-image: url("website review image/games15.png");
+    height: 200%;
+    width: 1900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+
+}
+
+.section-4 {
+    background-image: url("website review image/games15.png");
+    height: 80%;
+    width: 1900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.section-2 {
+    background-image: url("website review image/games15.png");
+    height: 120%;
+    width: 1900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    overflow: hidden;
+    margin-top: -30px;
+}
+
+@media only screen and (max-device-width: 320px){
+    .site-wrapper{
+        height: 200px;
+    }
+    .col-md-4{
+        margin: 5% 0%;
+
+    }
+
+    }
+
+
+
+/*DEVELOPER: Francis Iwudibia, IS117-001, Spring, 2021 */
